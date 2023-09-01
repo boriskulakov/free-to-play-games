@@ -1,0 +1,46 @@
+.imgPlaceholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #094067;
+}
+
+.bar {
+  width: 10px;
+  height: 70px;
+  background: #fff;
+  display: inline-block;
+  transform-origin: bottom center;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  animation: loader 1.2s linear infinite;
+}
+.bar1 {
+  animation-delay: 0.1s;
+}
+.bar2 {
+  animation-delay: 0.2s;
+}
+.bar3 {
+  animation-delay: 0.3s;
+}
+.bar4 {
+  animation-delay: 0.4s;
+}
+
+@keyframes loader {
+  0% {
+    transform: scaleY(0.1);
+    background: #ef4565;
+  }
+  50% {
+    transform: scaleY(1);
+    background: #3da9fc;
+  }
+  100% {
+    transform: scaleY(0.1);
+    background: transparent;
+  }
+}

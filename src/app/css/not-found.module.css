@@ -1,0 +1,37 @@
+.message {
+  margin: 5rem 1rem;
+  text-align: center;
+  color: var(--dark-hex);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.title {
+  font-size: 2.5rem;
+}
+
+.subtitle {
+  font-size: 2rem;
+}
+
+.link {
+  font-size: 1.7rem;
+  padding: 15px 25px;
+  background-color: #3da9fc;
+  border-radius: 10px;
+}
+.link:hover {
+  outline: 2px solid var(--dark-hex);
+}
+
+@media screen and (max-width: 400px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1.7rem;
+  }
+}

@@ -1,0 +1,14 @@
+.footer {
+  padding: 0.8rem;
+  text-align: center;
+}
+
+.github {
+  padding: 0.6rem 2rem;
+  font-size: 1.2rem;
+  color: #094067;
+  opacity: 0.8;
+}
+.github:hover {
+  opacity: 1;
+}
